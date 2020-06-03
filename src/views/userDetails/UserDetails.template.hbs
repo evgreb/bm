@@ -1,0 +1,19 @@
+<h3>UserID: {{customer_id}}</h3>
+<form class="user_form">
+    <div class="user_property">
+        <div class="input">
+            <label for="server_name" class="input_label">Server name</label>
+            <input class="input_field" type="text" id="server_name" name="server_name" value="{{server_name}}" />
+        </div>
+    </div>
+    <div class="user_property">
+        <div class="input">
+            <label for="server_type" class="input_label">Server type</label>
+            <select class="input_field" name="server_type" id="server_type" value="{{server_type}}">
+                <option value="vds">vds</option>
+                <option value="dedicated">dedicated</option>
+                <option value="hosting">hosting</option>
+            </select>
+        </div>
+    </div>
+</form>
